@@ -11,7 +11,7 @@ python3 main.py
 
 <hr>
 
-In _main.py_ at the top you can define the arguments **ARGS**. Where _top\_n_ defines the amount of elfes, which should be chosen out, and _file\_name_ defines the input file.
+In _main.py_ at the top you can define the arguments **ARGS**. Where `top_n` defines the amount of elfes, which should be chosen out, and `file_name` defines the input file.
 
 ```pyt
 ARGS = {
