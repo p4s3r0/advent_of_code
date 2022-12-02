@@ -3,21 +3,20 @@
 Here are my <a href="https://adventofcode.com/">Advent of Code</a> solutions. My programming language is **Python**.  
 <hr>
 
-For Execution use:
-
-```bash
-python3 main.py
+The folder structure for each day is the following:
+`<day>` defines the day [e.g 1,2,3,...,25]
+`<day>/main.py` is the execution file
+`<day>/inputs` is the folder where all the inputs are stored
+`<day>/inputs/test.txt` is the provided test input given in the puzzle description
+`input.txt` is the provided input for the challange
+```
+├── <day>
+│   ├── main.py
+│   ├── inputs
+│   │   ├── test.txt
+│   │   ├── input.txt
 ```
 
-<hr>
 
-In _main.py_ at the top you can define the arguments **ARGS**. Where _top\_n_ defines the amount of elfes, which should be chosen out, and _file\_name_ defines the input file.
-
-```pyt
-ARGS = {
-    "top_n": 3,
-    "file_name": "input.txt"
-}
-```
 
 
