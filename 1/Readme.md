@@ -16,7 +16,7 @@ In _main.py_ at the top you can define the arguments **ARGS**. Where `top_n` def
 ```pyt
 ARGS = {
     "top_n": 3,
-    "file_name": "input.txt"
+    "file_name": "inputs/input.txt"
 }
 ```
 
