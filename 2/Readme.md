@@ -15,7 +15,7 @@ In _main.py_ at the top you can define the arguments **ARGS**. Where `file_name`
 
 ```pyt
 ARGS = {
-    "file_name": "input.txt"
+    "file_name": "inputs/input.txt"
 }
 ```
 
