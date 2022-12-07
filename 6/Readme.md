@@ -1,6 +1,6 @@
 ## Advent of Code Day 6
 
-Advent of Code solution for Day **56* written in **Python**. The Puzzle description is defined in <a href="https://adventofcode.com/2022/day/6">AOC-Day-6</a>. 
+Advent of Code solution for Day **6* written in **Python**. The Puzzle description is defined in <a href="https://adventofcode.com/2022/day/6">AOC-Day-6</a>. 
 <hr>
 
 For Execution use:
