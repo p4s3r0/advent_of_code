@@ -68,6 +68,11 @@ def readFile(file_name: str):
 
 
 
+
+
+
+
+
 # -----------------------------------------------------------------------------
 # main function
 def main():
@@ -78,6 +83,8 @@ def main():
     summe = sum(fs.getFoldersBelowSize(100000))
     print(f"[PART 1] -> The sum of all directories below {100000} is {summe}")
 
+    size_to_be_deleted = fs.getFolderForEnoughSpace(70000000, 30000000)
+    print(f"[PART 2] -> The directory with size {size_to_be_deleted} needs to be deleted")
     
    
 if __name__ == "__main__":

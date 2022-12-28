@@ -23,6 +23,16 @@ class Filesystem():
         return [size for size in self.all_folders.values() if size <= boundary]
 
     # -----------------------------------------------------------------------------
+    # get smallest folder to free up enough space
+    def getFolderForEnoughSpace(self, total_space: int, space_needed: int):
+        free_space = total_space - self.content['/'].size
+        sorted_sizes = [size for size in self.all_folders.values()]
+        sorted_sizes.sort()
+        for size in sorted_sizes:
+            if size + free_space >= space_needed:
+                return size
+
+    # -----------------------------------------------------------------------------
     # iterates recursivly over the directories and adds each directory to the filesystem
     def iterateOverDirectories(self, curr_folders: dict()):
         for folder in curr_folders.folders:
